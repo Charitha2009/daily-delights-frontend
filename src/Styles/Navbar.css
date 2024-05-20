@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+  }
+  .navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+  }
+  
+  .navbar-brand, .navbar-item {
+    color: black;
+    font-family: cursive;
+    margin-left: 1rem;
+  }
+  
+  .icon-img{
+    height: 5vh;
+    width: 5vw;
+  }
